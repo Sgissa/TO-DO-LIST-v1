@@ -40,12 +40,6 @@ export default function ToDoList() {
               <button className="delete-btn" onClick={() => deleteTask(index)}>
                 Delete
               </button>
-              {/* <button className="move-btn" onClick={() => moveTaskUp(index)}>
-                ⬆
-              </button>
-              <button className="move-btn" onClick={() => moveTaskDown(index)}>
-                ⬇
-              </button> */}
             </li>
           ))}
         </ol>
